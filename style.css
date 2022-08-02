@@ -9,11 +9,13 @@ body {
     align-items: center;
     margin: 0;
 }
-hr{
+
+hr {
     width: 1320px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 50px;
 }
+
 /* header styel */
 header {
     width: 1321px;
@@ -147,15 +149,17 @@ main {
     margin-top: 0;
 }
 
-.transfer-live img {
-    position: relative;
-    top: 6px;
-    margin-right: 10px;
-}
+
 
 .transfer-live p {
     font-weight: 600;
     font-size: 18px;
+}
+
+.transfer-live img {
+    position: relative;
+    top: 6px;
+    margin-right: 10px;
 }
 
 .icons {
@@ -177,6 +181,7 @@ footer h1 {
     margin-bottom: 50px;
     margin-top: 104px;
 }
+
 .footer-options {
     display: flex;
     justify-content: center;
