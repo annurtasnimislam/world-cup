@@ -92,7 +92,6 @@ main {
     row-gap: 30px;
     padding: 30px;
 }
-
 .white-buttons {
     width: 252px;
     height: 64px;
@@ -109,6 +108,7 @@ main {
     border-radius: 10px;
     font-weight: 600;
     font-size: 20px;
+    border: 0;
 }
 
 .transfer {
