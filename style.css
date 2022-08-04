@@ -203,10 +203,10 @@ footer h1 {
     .watch-live h1{
         font-size: 24px;
     }
-    .banner-img{ 
+    .banner-img{
+        width: 100%; 
         display: flex;
         justify-content: center;
-        margin: 10px;
     }
     
 }
