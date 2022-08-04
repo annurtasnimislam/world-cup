@@ -216,18 +216,18 @@ footer h1 {
      .buttons{
         border-color:#E8E8E8;
      }
-     .footer-options{
-        flex-direction: column;
-        align-items: center;
-     }
+     
      /* for footer */
-
-     hr{
-        width: 100%;
-     }
+     
      footer{
         height: 100%;
         width: 100%;
-        margin-bottom: 0;
+     }
+     hr{
+        width: 80%;
+     }
+     .footer-options{
+        flex-direction: column;
+        align-items: center;
      }
 }
