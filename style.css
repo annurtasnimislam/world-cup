@@ -88,22 +88,20 @@ main {
     padding: 30px;
 }
 
-.white-buttons {
+.buttons{
     width: 252px;
     height: 64px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    font-weight: 500;
     font-size: 20px;
+    border-radius: 10px;
+}
+.white-buttons {
+    background: #FFFFFF;
+    font-weight: 500;
 }
 
-#red-button {
-    width: 252px;
-    height: 64px;
+.red-button {
     background: #DD0000;
-    border-radius: 10px;
     font-weight: 600;
-    font-size: 20px;
     border: 0;
 }
 
@@ -184,13 +182,16 @@ footer h1 {
 /* for monile devices */
 
 @media only screen and (max-width: 688px) {
-    main, footer{
+    footer{
         display: none;
     }
+    /* for header */
     .banner{
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 5px;
+        border-radius: 10px;
+        margin-bottom: 0;
     }
     .watch-live{
         padding: 0;
@@ -208,5 +209,20 @@ footer h1 {
         display: flex;
         justify-content: center;
     }
+    /* for main */
     
+     main{
+        width: 100%;
+     }
+     .show, .transfer{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        row-gap: 10px;
+     }
+     .upcoming-match{
+        background: #FFFFFF;
+     }
+     .buttons{
+        border-color:#E8E8E8;
+     }
 }
